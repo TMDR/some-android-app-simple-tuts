@@ -1,0 +1,2 @@
+3-static:use the TAG from outside the activity
+ -final:security

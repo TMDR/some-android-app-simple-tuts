@@ -1,0 +1,4 @@
+4-code is more detailed and graphical interface is user friendly and faster
+ -of course because of different details for lines that are either by default or useless in the case of this layout
+5-we can se dp not px
+6-we can't use println() because it is not implemented and it isn't a command line and we should decide in wich position the print will show

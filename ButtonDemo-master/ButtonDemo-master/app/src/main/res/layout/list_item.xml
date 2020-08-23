@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?><!-- Layout for a single list item -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:minHeight="?android:attr/listPreferredItemHeight"
+    android:orientation="horizontal"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/list_item_icon"
+        android:layout_width="50dp"
+        android:layout_height="50dp" />
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/dessert_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"/>
+
+    <TextView
+        android:id="@+id/dessert_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:text="Price : 0 dollars" />
+</LinearLayout>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:focusable="false"
+        android:onClick="Decrement"
+        android:text="-" />
+
+    <TextView
+        android:id="@+id/dessert_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:focusable="false"
+        android:onClick="Increment"
+        android:text="+" />
+
+</LinearLayout>

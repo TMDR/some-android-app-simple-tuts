@@ -1,0 +1,2 @@
+3-setTheme should be calles in inCreate because nothing is launched outsid it
+ -and should be before setContentView
